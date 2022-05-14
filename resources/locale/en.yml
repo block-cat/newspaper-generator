@@ -1,0 +1,11 @@
+block-cat-newspaper-generator:
+  forum:
+    composer:
+      newspaper_modal:
+        newspaper_generator_title: 'Newspaper Generator'
+        newspaper_name: 'Newspaper name'
+        headline: 'Headline'
+        author: 'Author'
+        picture: 'Picture'
+        article_content: 'Article text'
+        submit_button: 'Generate'

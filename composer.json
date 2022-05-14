@@ -1,0 +1,30 @@
+{
+  "name": "block-cat/newspaper-generator",
+  "description": "Posibility to generate newspaper",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.16"
+  },
+  "authors": [{
+    "name": "BlockCat"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BlockCat\\NewspaperGenerator\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BkC Newspaper",
+      "icon": {
+        "name": "far fa-newspaper",
+        "backgroundColor": "#083",
+        "color": "#fff"
+      }
+    }
+  }
+}
